@@ -1,0 +1,31 @@
+{
+  "name": "discord-ts-bot-template",
+  "version": "1.0.0",
+  "description": "A typescript discord bot template but without the slash commands madness",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "tsc && node build/bot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/decca-dev/discord-ts-bot-template.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/decca-dev/discord-ts-bot-template/issues"
+  },
+  "homepage": "https://github.com/decca-dev/discord-ts-bot-template#readme",
+  "devDependencies": {
+    "@types/node": "^17.0.14"
+  },
+  "dependencies": {
+    "chalk": "^5.0.0",
+    "discord.js": "^13.6.0",
+    "dotenv": "^15.0.0",
+    "pretty-ms": "^7.0.1"
+  }
+}
